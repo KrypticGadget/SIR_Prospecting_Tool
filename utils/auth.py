@@ -2,7 +2,7 @@
 import os
 from dotenv import load_dotenv
 import bcrypt
-import jwt
+from jose import jwt
 from datetime import datetime, timedelta
 import logging
 
